@@ -20,7 +20,7 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale { // UPDATE THE CONTRA
     }
 }
 
-/*
+
 contract KaseiCoinCrowdsaleDeployer {
     // Create an `address public` variable called `kasei_token_address`.
     // YOUR CODE HERE!
@@ -50,4 +50,3 @@ contract KaseiCoinCrowdsaleDeployer {
         // YOUR CODE HERE!
     }
 }
-*/
