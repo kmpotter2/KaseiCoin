@@ -29,7 +29,9 @@ contract KaseiCoinCrowdsaleDeployer {
 
     // Add the constructor.
     constructor(
-       // YOUR CODE HERE!
+        string memory name,
+        string memory symbol,
+        address payable wallet // this address will receive all Ether raised by the sale
     ) public {
         // Create a new instance of the KaseiCoin contract.
         // YOUR CODE HERE!
