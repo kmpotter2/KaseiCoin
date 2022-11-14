@@ -12,7 +12,9 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale { // UPDATE THE CONTRA
     
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
-        // YOUR CODE HERE!
+        uint256 rate, // rate in TKNbits - uint256 and uint are interchangeable -https://docs.soliditylang.org/en/v0.4.21/types.html#value-types
+        address payable wallet, // sale beneficiary
+        ArcadeToken token // the ArcadeToken itself that the ArcadeTokenCrowdsale will work with
     ) public Crowdsale(rate, wallet, token) {
         // constructor can stay empty
     }
